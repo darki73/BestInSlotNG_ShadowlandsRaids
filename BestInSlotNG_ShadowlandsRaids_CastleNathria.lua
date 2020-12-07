@@ -106,18 +106,18 @@ function CastleNathria:OnEnable()
 
 	local bossName = EJ_GetEncounterInfo(2393)
 	local lootTable = {
-		17842, -- Slippers of the Forgotten Heretic
-		17843, -- Double-Chained Utility Belt
-		17844, -- Chiropteran Leggings
-		17845, -- Cowled Batwing Cloak
-		17846, -- Errant Crusader's Greaves
-		17847, -- Skulker's Wing
-		17848, -- Mental Recovery
-		17849, -- Totemic Surge
-		17850, -- Demonic Parole
-		17851, -- Unending Grip
-		17852, -- Shade of Terror
-		17853, -- Disturb the Peace
+		182979, -- Slippers of the Forgotten Heretic
+		182976, -- Double-Chained Utility Belt
+		182993, -- Chiropteran Leggings
+		183034, -- Cowled Batwing Cloak
+		183027, -- Errant Crusader's Greaves
+		184016, -- Skulker's Wing
+		181962, -- Mental Recovery
+		182109, -- Totemic Surge
+		182330, -- Demonic Parole
+		182132, -- Unending Grip
+		182466, -- Shade of Terror
+		182656, -- Disturb the Peace
 	}
 	self:RegisterBossLoot(castleNathria, lootTable, bossName)
 
@@ -130,22 +130,22 @@ function CastleNathria:OnEnable()
 
 	local bossName = EJ_GetEncounterInfo(2429)
 	local lootTable = {
-		17854, -- Spell-Woven Tourniquet
-		17855, -- Charm of Eternal Winter
-		17856, -- Master Huntsman's Bandolier
-		17857, -- Hellhound Cuffs
-		17858, -- Grim Pursuant's Maille
-		17859, -- Mystic Anima Spherule
-		17860, -- Memory of Eagletalon's True Focus
-		17861, -- Memory of the Natural Order
-		17862, -- Memory of the Spiritwalker's Tidal Totem
-		17863, -- Bargast's Leash
-		17864, -- Tactical Retreat
-		17865, -- Cacophonous Roar
-		17866, -- Rushed Setup
-		17867, -- Crippling Hex
-		17868, -- Lingering Numbness
-		17869, -- Born of the Wilds
+		182995, -- Spell-Woven Tourniquet
+		183040, -- Charm of Eternal Winter
+		182988, -- Master Huntsman's Bandolier
+		183018, -- Hellhound Cuffs
+		182996, -- Grim Pursuant's Maille
+		183892, -- Mystic Anima Spherule
+		183258, -- Memory of Eagletalon's True Focus
+		183235, -- Memory of the Natural Order
+		183361, -- Memory of the Spiritwalker's Tidal Totem
+		184017, -- Bargast's Leash
+		182605, -- Tactical Retreat
+		180943, -- Cacophonous Roar
+		183501, -- Rushed Setup
+		182110, -- Crippling Hex
+		181510, -- Lingering Numbness
+		183470, -- Born of the Wilds
 	}
 	self:RegisterBossLoot(castleNathria, lootTable, bossName)
 
@@ -158,23 +158,23 @@ function CastleNathria:OnEnable()
 
 	local bossName = EJ_GetEncounterInfo(2422)
 	local lootTable = {
-		17870, -- Bleakwing Assassin's Grips
-		17871, -- Stoic Guardsman's Belt
-		17872, -- High Torturer's Smock
-		17873, -- Mantle of Manifest Sins
-		17874, -- Bangles of Errant Pride
-		17875, -- Abominable Anima Spherule
-		17876, -- Memory of the Shadowbreaker
-		17877, -- Memory of the Sun King
-		17878, -- Soul Igniter
-		17879, -- Splintered Heart of Al'ar
-		17880, -- Tuft of Smoldering Plumage
-		17881, -- Shielding Words
-		17882, -- Cheetah's Vigor
-		17883, -- Fel Defender
-		17884, -- Brutal Vitality
-		17885, -- Hardened Bones
-		17886, -- Vital Accretion
+		183007, -- Bleakwing Assassin's Grips
+		183025, -- Stoic Guardsman's Belt
+		182986, -- High Torturer's Smock
+		183033, -- Mantle of Manifest Sins
+		182977, -- Bangles of Errant Pride
+		183893, -- Abominable Anima Spherule
+		183304, -- Memory of the Shadowbreaker
+		183277, -- Memory of the Sun King
+		184019, -- Soul Igniter
+		184018, -- Splintered Heart of Al'ar
+		184020, -- Tuft of Smoldering Plumage
+		182307, -- Shielding Words
+		182584, -- Cheetah's Vigor
+		182316, -- Fel Defender
+		180844, -- Brutal Vitality
+		181975, -- Hardened Bones
+		182107, -- Vital Accretion
 	}
 	self:RegisterBossLoot(castleNathria, lootTable, bossName)
 
@@ -187,21 +187,21 @@ function CastleNathria:OnEnable()
 
 	local bossName = EJ_GetEncounterInfo(2418)
 	local lootTable = {
-		17887, -- Greaves of Enigmatic Energies
-		17888, -- Breastplate of Cautious Calculation
-		17889, -- Hyperlight Band
-		17890, -- Shadewarped Sash
-		17891, -- Precisely Calibrated Chronometer
-		17892, -- Apogee Anima Bead
-		17893, -- Memory of the Last Emperor
-		17894, -- Memory of the Core of the Balespider
-		17895, -- Portable Pocket Dimension
-		17896, -- Glyph of Assimilation
-		17897, -- Tempest Barrier
-		17898, -- Accrued Vitality
-		17899, -- Clear Mind
-		17900, -- Markman's Advantage
-		17901, -- Born Anew
+		183012, -- Greaves of Enigmatic Energies
+		182987, -- Breastplate of Cautious Calculation
+		183038, -- Hyperlight Band
+		183004, -- Shadewarped Sash
+		183019, -- Precisely Calibrated Chronometer
+		183888, -- Apogee Anima Bead
+		183296, -- Memory of the Last Emperor
+		183370, -- Memory of the Core of the Balespider
+		183960, -- Portable Pocket Dimension
+		184021, -- Glyph of Assimilation
+		181769, -- Tempest Barrier
+		182460, -- Accrued Vitality
+		181837, -- Clear Mind
+		182441, -- Markman's Advantage
+		183468, -- Born Anew
 	}
 	self:RegisterBossLoot(castleNathria, lootTable, bossName)
 
@@ -214,23 +214,23 @@ function CastleNathria:OnEnable()
 
 	local bossName = EJ_GetEncounterInfo(2428)
 	local lootTable = {
-		17902, -- Cinch of Infinite Tightness
-		17903, -- Miasma-Lacquered Jerkin
-		17904, -- Consumptive Chainmail Carapace
-		17905, -- Helm of Insatiable Appetite
-		17906, -- Volatile Shadestitch Legguards
-		17907, -- Endlessly Gluttonous Greaves
-		17908, -- Epaulettes of Overwhelming Force
-		17909, -- Memory of Gorefiend's Domination
-		17910, -- Venerated Anima Spherule
-		17911, -- Memory of the Wall
-		17912, -- Gluttonous Spike
-		17913, -- Consumptive Infusion
-		17914, -- Tumbling Technique
-		17915, -- Move with Grace
-		17916, -- Cloaked in Shadows
-		17917, -- Cryo-Freeze
-		17918, -- Spirit Drain
+		183028, -- Cinch of Infinite Tightness
+		183009, -- Miasma-Lacquered Jerkin
+		183000, -- Consumptive Chainmail Carapace
+		183001, -- Helm of Insatiable Appetite
+		183024, -- Volatile Shadestitch Legguards
+		182992, -- Endlessly Gluttonous Greaves
+		182994, -- Epaulettes of Overwhelming Force
+		182630, -- Memory of Gorefiend's Domination
+		183891, -- Venerated Anima Spherule
+		183391, -- Memory of the Wall
+		184023, -- Gluttonous Spike
+		184022, -- Consumptive Infusion
+		181640, -- Tumbling Technique
+		181827, -- Move with Grace
+		183498, -- Cloaked in Shadows
+		181698, -- Cryo-Freeze
+		181836, -- Spirit Drain
 	}
 	self:RegisterBossLoot(castleNathria, lootTable, bossName)
 
@@ -243,27 +243,27 @@ function CastleNathria:OnEnable()
 
 	local bossName = EJ_GetEncounterInfo(2420)
 	local lootTable = {
-		17919, -- Confidant's Favored Cap
-		17920, -- Ritualist's Treasured Ring
-		17921, -- Gloves of Phantom Shadows
-		17922, -- Memento-Laden Cuisses
-		17923, -- Binding of Warped Desires
-		17924, -- Memory of a Fortified Fel Flame
-		17925, -- Memory of the Mother Tree
-		17926, -- Thaumaturgic Anima Bead
-		17927, -- Memory of Past Sins
-		17928, -- Shattered Restoration
-		17929, -- Grounding Breath
-		17930, -- Resolute Barrier
-		17931, -- Prepared for All
-		17932, -- Tough as Bark
-		17933, -- Golden Path
-		17934, -- Reinforced Shell
-		17935, -- Grounding Surge
-		17936, -- Translucent Image
-		17937, -- Rejuvenating Wind
-		17938, -- Spiritual Resonance
-		17939, -- Safeguard
+		183021, -- Confidant's Favored Cap
+		183037, -- Ritualist's Treasured Ring
+		183026, -- Gloves of Phantom Shadows
+		182985, -- Memento-Laden Cuisses
+		183015, -- Binding of Warped Desires
+		183218, -- Memory of a Fortified Fel Flame
+		183240, -- Memory of the Mother Tree
+		183889, -- Thaumaturgic Anima Bead
+		184025, -- Memory of Past Sins
+		182317, -- Shattered Restoration
+		181466, -- Grounding Breath
+		182449, -- Resolute Barrier
+		183502, -- Prepared for All
+		183464, -- Tough as Bark
+		182336, -- Golden Path
+		181841, -- Reinforced Shell
+		181498, -- Grounding Surge
+		181826, -- Translucent Image
+		182469, -- Rejuvenating Wind
+		182111, -- Spiritual Resonance
+		180896, -- Safeguard
 	}
 	self:RegisterBossLoot(castleNathria, lootTable, bossName)
 
@@ -278,29 +278,29 @@ function CastleNathria:OnEnable()
 
 	local bossName = EJ_GetEncounterInfo(2426)
 	local lootTable = {
-		17940, -- Courtier's Costume Trousers
-		17941, -- Castellan's Chainlink Grips
-		17942, -- Stoneguard Attendant's Boots
-		17943, -- Sparkling Glass Slippers
-		17944, -- Corset of the Deft Duelist
-		17945, -- Noble's Birthstone Pendant
-		17946, -- Enchanted Toe-Tappers
-		17947, -- Zenith Anima Spherule
-		17948, -- Memory of the Dashing Scoundrel
-		17949, -- Macabre Sheet Music
-		17950, -- Nimble Fingers
-		17951, -- Demonic Momentum
-		17952, -- Reversal of Fortune
-		17953, -- Inspiring Presence
-		17954, -- Dizzying Tumble
-		17955, -- Echoing Blessings
-		17956, -- Chilled Resilience
-		17957, -- Innate Resolve
-		17958, -- Refreshing Waters
-		17959, -- Winter's Protection
-		17960, -- Ravenous Consumption
-		17961, -- Power Unto Others
-		17962, -- Memory of the Void's Eternal Call
+		183011, -- Courtier's Costume Trousers
+		183014, -- Castellan's Chainlink Grips
+		182983, -- Stoneguard Attendant's Boots
+		183023, -- Sparkling Glass Slippers
+		182989, -- Corset of the Deft Duelist
+		183039, -- Noble's Birthstone Pendant
+		183030, -- Enchanted Toe-Tappers
+		183890, -- Zenith Anima Spherule
+		183334, -- Memory of the Dashing Scoundrel
+		184024, -- Macabre Sheet Music
+		183496, -- Nimble Fingers
+		182470, -- Demonic Momentum
+		182480, -- Reversal of Fortune
+		180847, -- Inspiring Presence
+		181512, -- Dizzying Tumble
+		182461, -- Echoing Blessings
+		181834, -- Chilled Resilience
+		183466, -- Innate Resolve
+		182106, -- Refreshing Waters
+		181464, -- Winter's Protection
+		182325, -- Ravenous Consumption
+		181842, -- Power Unto Others
+		183326, -- Memory of the Void's Eternal Call
 	}
 	self:RegisterBossLoot(castleNathria, lootTable, bossName)
 
@@ -313,30 +313,30 @@ function CastleNathria:OnEnable()
 
 	local bossName = EJ_GetEncounterInfo(2394)
 	local lootTable = {
-		17963, -- Colossal Plate Gauntlets
-		17964, -- Leggings of Lethal Reverberations
-		17965, -- Heedless Pugilist's Harness
-		17966, -- Load-Bearing Belt
-		17967, -- Rampaging Giant's Chestplate
-		17968, -- Impossibly Oversized Mitts
-		17969, -- Stoneclas Stompers
-		17970, -- Memory of the Morning's Tear
-		17971, -- Memory of Azj'Aqir's Cinders
-		17972, -- Memory of the Rylakstalker's Strikes
-		17973, -- Memory of the Berserker's Will
-		17974, -- Memory of the Frenzyband
-		17975, -- Memory of Koltira
-		17976, -- Memory of Greenskin
-		17977, -- Memory of a Siphoning Storm
-		17978, -- Memory of the Primal Lava Actuators
-		17979, -- Memory of the Ardent Protector
-		17980, -- Memory of a Clear Mind
-		17981, -- Hateful Chain
-		17982, -- Diverted Energy
-		17983, -- Harm Denial
-		17984, -- Tireless Pursuit
-		17985, -- Quick Decisions
-		17986, -- Fel Celerity
+		182984, -- Colossal Plate Gauntlets
+		182981, -- Leggings of Lethal Reverberations
+		183005, -- Heedless Pugilist's Harness
+		183016, -- Load-Bearing Belt
+		182999, -- Rampaging Giant's Chestplate
+		183022, -- Impossibly Oversized Mitts
+		183006, -- Stoneclas Stompers
+		183293, -- Memory of the Morning's Tear
+		183374, -- Memory of Azj'Aqir's Cinders
+		183264, -- Memory of the Rylakstalker's Strikes
+		183389, -- Memory of the Berserker's Will
+		183233, -- Memory of the Frenzyband
+		182635, -- Memory of Koltira
+		183340, -- Memory of Greenskin
+		183272, -- Memory of a Siphoning Storm
+		183356, -- Memory of the Primal Lava Actuators
+		183309, -- Memory of the Ardent Protector
+		183318, -- Memory of a Clear Mind
+		184026, -- Hateful Chain
+		181707, -- Diverted Energy
+		181373, -- Harm Denial
+		183467, -- Tireless Pursuit
+		183499, -- Quick Decisions
+		182340, -- Fel Celerity
 	}
 	self:RegisterBossLoot(castleNathria, lootTable, bossName)
 
@@ -350,38 +350,38 @@ function CastleNathria:OnEnable()
 
 	local bossName = EJ_GetEncounterInfo(2425)
 	local lootTable = {
-		17987, -- Crest of the Legionnaire General
-		17988, -- Ceremonial Parade Legguards
-		17989, -- Oathsworn Soldier's Gauntlets
-		17990, -- Wicked Flanker's Gorget
-		17991, -- Robes of the Cursed Commando
-		17992, -- Memory of the Sun's Cycles
-		17993, -- Memory of Superstrain
-		17994, -- Memory of the Circle of Life and Death
-		17995, -- Apogee Anima Bead
-		17996, -- Memory of an Expanded Potential
-		17997, -- Memory of an Ancestral Reminder
-		17998, -- Memory of the Twins of the Sun Priestess
-		17999, -- Memory of the Wild Call
-		18000, -- Memory of Bloodfang's Essence
-		18001, -- Thaumaturgic Anima Bead
-		18002, -- Memory of the Invoker
-		18003, -- Memory of the Tormented Kings
-		18004, -- Memory of the Anguish of the Collective
-		18005, -- Memory of Demonic Synergy
-		18006, -- Stone Legion Heraldry
-		18007, -- Divine Call
-		18008, -- Recuperator
-		18009, -- Thunderous Paws
-		18010, -- Diabolic Bloodstone
-		18011, -- Fortifying Ingredients
-		18012, -- Stalwart Guardian
-		18013, -- Front of the Pack
-		18014, -- Felfire Haste
-		18015, -- Insatiable Appetite
-		18016, -- Charitable Soul
-		18017, -- Harmony of the Tortollan
-		18018, -- Flow of Time
+		183032, -- Crest of the Legionnaire General
+		183002, -- Ceremonial Parade Legguards
+		182991, -- Oathsworn Soldier's Gauntlets
+		183029, -- Wicked Flanker's Gorget
+		182998, -- Robes of the Cursed Commando
+		183299, -- Memory of the Sun's Cycles
+		182627, -- Memory of Superstrain
+		183223, -- Memory of the Circle of Life and Death
+		183895, -- Apogee Anima Bead
+		183267, -- Memory of an Expanded Potential
+		183346, -- Memory of an Ancestral Reminder
+		183316, -- Memory of the Twins of the Sun Priestess
+		183250, -- Memory of the Wild Call
+		183330, -- Memory of Bloodfang's Essence
+		183894, -- Thaumaturgic Anima Bead
+		183283, -- Memory of the Invoker
+		183381, -- Memory of the Tormented Kings
+		183213, -- Memory of the Anguish of the Collective
+		183367, -- Memory of Demonic Synergy
+		184027, -- Stone Legion Heraldry
+		182304, -- Divine Call
+		183497, -- Recuperator
+		182108, -- Thunderous Paws
+		183076, -- Diabolic Bloodstone
+		181508, -- Fortifying Ingredients
+		180842, -- Stalwart Guardian
+		183469, -- Front of the Pack
+		182324, -- Felfire Haste
+		182133, -- Insatiable Appetite
+		181838, -- Charitable Soul
+		182464, -- Harmony of the Tortollan
+		181467, -- Flow of Time
 	}
 	self:RegisterBossLoot(castleNathria, lootTable, bossName)
 
@@ -394,43 +394,43 @@ function CastleNathria:OnEnable()
 
 	local bossName = EJ_GetEncounterInfo(2424)
 	local lootTable = {
-		18019, -- Shawl of the Penitent
-		18020, -- Diadem of Imperious Desire
-		18021, -- Most Regal Signet of Sire Denathrius
-		18022, -- Pauldrons of Fatal Finality
-		18023, -- Sadist's Sinister Mask
-		18024, -- Memory of the Demise of Skybreaker
-		18025, -- Mystic Anima Spherule
-		18026, -- Memory of a Malefic Wrath
-		18027, -- Memory of the Exploiter
-		18028, -- Venerated Anima Spherule
-		18029, -- Zenith Anima Spherule
-		18030, -- Memory of the Deadliest Coil
-		18031, -- Memory of the Freezing Winds
-		18032, -- Memory of Oneth
-		18033, -- Memory of the Chaos Theory
-		18034, -- Memory of Finality
-		18035, -- Memory of a Harmonious Apparatus
-		18036, -- Memory of the Vanguard's Momentum
-		18037, -- Memory of a Celestial Infusion
-		18038, -- Abominable Anima Spherule
-		18039, -- Memory of the Eredun War Order
-		18040, -- Sanguine Vintage
-		18041, -- Manabound Mirror
-		18042, -- Cabalist's Hymnal
-		18043, -- Dreadfire Vessel
-		18044, -- Incantation of Swiftness
-		18045, -- Indelible Victory
-		18046, -- Fleeting Wind
-		18047, -- Ursine Vigor
-		18048, -- Viscous Ink
-		18049, -- Light's Inspiration
-		18050, -- Swift Transference
-		18051, -- Astral Protection
-		18052, -- Fade to Nothing
-		18053, -- Light's Barding
-		18054, -- Kilrogg's Cunning
-		18055, -- Ambuscade
+		183020, -- Shawl of the Penitent
+		182997, -- Diadem of Imperious Desire
+		183036, -- Most Regal Signet of Sire Denathrius
+		183003, -- Pauldrons of Fatal Finality
+		182980, -- Sadist's Sinister Mask
+		183352, -- Memory of the Demise of Skybreaker
+		183897, -- Mystic Anima Spherule
+		183362, -- Memory of a Malefic Wrath
+		183384, -- Memory of the Exploiter
+		183898, -- Venerated Anima Spherule
+		183899, -- Zenith Anima Spherule
+		182636, -- Memory of the Deadliest Coil
+		183279, -- Memory of the Freezing Winds
+		183227, -- Memory of Oneth
+		183214, -- Memory of the Chaos Theory
+		183344, -- Memory of Finality
+		183324, -- Memory of a Harmonious Apparatus
+		183310, -- Memory of the Vanguard's Momentum
+		183288, -- Memory of a Celestial Infusion
+		183896, -- Abominable Anima Spherule
+		183256, -- Memory of the Eredun War Order
+		184031, -- Sanguine Vintage
+		184029, -- Manabound Mirror
+		184028, -- Cabalist's Hymnal
+		184030, -- Dreadfire Vessel
+		181756, -- Incantation of Swiftness
+		181469, -- Indelible Victory
+		182113, -- Fleeting Wind
+		183465, -- Ursine Vigor
+		182318, -- Viscous Ink
+		181840, -- Light's Inspiration
+		181624, -- Swift Transference
+		182105, -- Astral Protection
+		183500, -- Fade to Nothing
+		182448, -- Light's Barding
+		183044, -- Kilrogg's Cunning
+		184587, -- Ambuscade
 	}
 	self:RegisterBossLoot(castleNathria, lootTable, bossName)
 end
