@@ -5,8 +5,8 @@ function CastleNathria:OnEnable()
 
 	local castleNathriaName = C_Map.GetMapInfo(1735).name
 	self:RegisterExpansion('Shadowlands', EXPANSION_NAME8)
-	self:RegisterRaidTier('Shadowlands', 90002, castleNathriaName, PLAYER_DIFFICULTY3, PLAYER_DIFFICULTY1, PLAYER_DIFFICULTY2, PLAYER_DIFFICULTY6)
-	self:RegisterRaidInstance(90002, castleNathria, castleNathriaName, {
+	self:RegisterRaidTier('Shadowlands', 91192, castleNathriaName, PLAYER_DIFFICULTY3, PLAYER_DIFFICULTY1, PLAYER_DIFFICULTY2, PLAYER_DIFFICULTY6)
+	self:RegisterRaidInstance(91192, castleNathria, castleNathriaName, {
 		bonusids = {
 			[1] = {7186,1459},
 			[2] = {7189,1472},
@@ -92,7 +92,7 @@ function CastleNathria:OnEnable()
 			},
 		},
 	}
-	self:RegisterTierTokens(90002, tokenTable)
+	self:RegisterTierTokens(91192, tokenTable)
 
 
 
@@ -101,7 +101,7 @@ function CastleNathria:OnEnable()
 	--------------------------------------------------
 	----- Encounter Name: Shriekwing
 	----- Encounter ID:   2393
-	----- NPC ID:         172145 -- Shriekwing
+	----- NPC ID:         164406 -- Shriekwing
 	--------------------------------------------------
 
 	local bossName = EJ_GetEncounterInfo(2393)
@@ -125,7 +125,10 @@ function CastleNathria:OnEnable()
 	--------------------------------------------------
 	----- Encounter Name: Huntsman Altimor
 	----- Encounter ID:   2429
-	----- NPC ID:         165066 -- Huntsman Altimor
+	----- NPC #1 ID:      165066 -- Huntsman Altimor
+	----- NPC #2 ID:      165067 -- Margore
+	----- NPC #3 ID:      169457 -- Bargast
+	----- NPC #4 ID:      169458 -- Hecutis
 	--------------------------------------------------
 
 	local bossName = EJ_GetEncounterInfo(2429)
@@ -135,7 +138,6 @@ function CastleNathria:OnEnable()
 		182988, -- Master Huntsman's Bandolier
 		183018, -- Hellhound Cuffs
 		182996, -- Grim Pursuant's Maille
-		183892, -- Mystic Anima Spherule
 		183258, -- Memory of Eagletalon's True Focus
 		183235, -- Memory of the Natural Order
 		183361, -- Memory of the Spiritwalker's Tidal Totem
@@ -147,13 +149,15 @@ function CastleNathria:OnEnable()
 		181510, -- Lingering Numbness
 		183470, -- Born of the Wilds
 	}
-	self:RegisterBossLoot(castleNathria, lootTable, bossName)
+	self:RegisterBossLoot(castleNathria, lootTable, bossName, 183892)
 
 
 	--------------------------------------------------
 	----- Encounter Name: Sun King's Salvation
 	----- Encounter ID:   2422
-	----- NPC ID:         165759 -- Sun King's Salvation
+	----- NPC #1 ID:      165805 -- Shade of Kael'thas
+	----- NPC #2 ID:      165759 -- Kael'thas
+	----- NPC #3 ID:      168973 -- High Torturer Darithos
 	--------------------------------------------------
 
 	local bossName = EJ_GetEncounterInfo(2422)
@@ -163,7 +167,6 @@ function CastleNathria:OnEnable()
 		182986, -- High Torturer's Smock
 		183033, -- Mantle of Manifest Sins
 		182977, -- Bangles of Errant Pride
-		183893, -- Abominable Anima Spherule
 		183304, -- Memory of the Shadowbreaker
 		183277, -- Memory of the Sun King
 		184019, -- Soul Igniter
@@ -176,7 +179,7 @@ function CastleNathria:OnEnable()
 		181975, -- Hardened Bones
 		182107, -- Vital Accretion
 	}
-	self:RegisterBossLoot(castleNathria, lootTable, bossName)
+	self:RegisterBossLoot(castleNathria, lootTable, bossName, 183893)
 
 
 	--------------------------------------------------
@@ -192,7 +195,6 @@ function CastleNathria:OnEnable()
 		183038, -- Hyperlight Band
 		183004, -- Shadewarped Sash
 		183019, -- Precisely Calibrated Chronometer
-		183888, -- Apogee Anima Bead
 		183296, -- Memory of the Last Emperor
 		183370, -- Memory of the Core of the Balespider
 		183960, -- Portable Pocket Dimension
@@ -203,7 +205,7 @@ function CastleNathria:OnEnable()
 		182441, -- Markman's Advantage
 		183468, -- Born Anew
 	}
-	self:RegisterBossLoot(castleNathria, lootTable, bossName)
+	self:RegisterBossLoot(castleNathria, lootTable, bossName, 183888)
 
 
 	--------------------------------------------------
@@ -222,7 +224,6 @@ function CastleNathria:OnEnable()
 		182992, -- Endlessly Gluttonous Greaves
 		182994, -- Epaulettes of Overwhelming Force
 		182630, -- Memory of Gorefiend's Domination
-		183891, -- Venerated Anima Spherule
 		183391, -- Memory of the Wall
 		184023, -- Gluttonous Spike
 		184022, -- Consumptive Infusion
@@ -232,13 +233,13 @@ function CastleNathria:OnEnable()
 		181698, -- Cryo-Freeze
 		181836, -- Spirit Drain
 	}
-	self:RegisterBossLoot(castleNathria, lootTable, bossName)
+	self:RegisterBossLoot(castleNathria, lootTable, bossName, 183891)
 
 
 	--------------------------------------------------
 	----- Encounter Name: Lady Inerva Darkvein
 	----- Encounter ID:   2420
-	----- NPC ID:         167517 -- Lady Inerva Darkvein
+	----- NPC ID:         165521 -- Lady Inerva Darkvein
 	--------------------------------------------------
 
 	local bossName = EJ_GetEncounterInfo(2420)
@@ -250,7 +251,6 @@ function CastleNathria:OnEnable()
 		183015, -- Binding of Warped Desires
 		183218, -- Memory of a Fortified Fel Flame
 		183240, -- Memory of the Mother Tree
-		183889, -- Thaumaturgic Anima Bead
 		184025, -- Memory of Past Sins
 		182317, -- Shattered Restoration
 		181466, -- Grounding Breath
@@ -265,7 +265,7 @@ function CastleNathria:OnEnable()
 		182111, -- Spiritual Resonance
 		180896, -- Safeguard
 	}
-	self:RegisterBossLoot(castleNathria, lootTable, bossName)
+	self:RegisterBossLoot(castleNathria, lootTable, bossName, 183889)
 
 
 	--------------------------------------------------
@@ -285,7 +285,6 @@ function CastleNathria:OnEnable()
 		182989, -- Corset of the Deft Duelist
 		183039, -- Noble's Birthstone Pendant
 		183030, -- Enchanted Toe-Tappers
-		183890, -- Zenith Anima Spherule
 		183334, -- Memory of the Dashing Scoundrel
 		184024, -- Macabre Sheet Music
 		183496, -- Nimble Fingers
@@ -302,13 +301,13 @@ function CastleNathria:OnEnable()
 		181842, -- Power Unto Others
 		183326, -- Memory of the Void's Eternal Call
 	}
-	self:RegisterBossLoot(castleNathria, lootTable, bossName)
+	self:RegisterBossLoot(castleNathria, lootTable, bossName, 183890)
 
 
 	--------------------------------------------------
 	----- Encounter Name: Sludgefist
 	----- Encounter ID:   2394
-	----- NPC ID:         174733 -- Sludgefist
+	----- NPC ID:         164407 -- Sludgefist
 	--------------------------------------------------
 
 	local bossName = EJ_GetEncounterInfo(2394)
@@ -344,8 +343,8 @@ function CastleNathria:OnEnable()
 	--------------------------------------------------
 	----- Encounter Name: Stone Legion Generals
 	----- Encounter ID:   2425
-	----- NPC #1 ID:      165318 -- General Kaal
-	----- NPC #2 ID:      170323 -- General Grashaal
+	----- NPC #1 ID:      168112 -- General Kaal
+	----- NPC #2 ID:      168113 -- General Grashaal
 	--------------------------------------------------
 
 	local bossName = EJ_GetEncounterInfo(2425)
@@ -358,13 +357,11 @@ function CastleNathria:OnEnable()
 		183299, -- Memory of the Sun's Cycles
 		182627, -- Memory of Superstrain
 		183223, -- Memory of the Circle of Life and Death
-		183895, -- Apogee Anima Bead
 		183267, -- Memory of an Expanded Potential
 		183346, -- Memory of an Ancestral Reminder
 		183316, -- Memory of the Twins of the Sun Priestess
 		183250, -- Memory of the Wild Call
 		183330, -- Memory of Bloodfang's Essence
-		183894, -- Thaumaturgic Anima Bead
 		183283, -- Memory of the Invoker
 		183381, -- Memory of the Tormented Kings
 		183213, -- Memory of the Anguish of the Collective
@@ -383,13 +380,13 @@ function CastleNathria:OnEnable()
 		182464, -- Harmony of the Tortollan
 		181467, -- Flow of Time
 	}
-	self:RegisterBossLoot(castleNathria, lootTable, bossName)
+	self:RegisterBossLoot(castleNathria, lootTable, bossName, { 183895, 183894 })
 
 
 	--------------------------------------------------
 	----- Encounter Name: Sire Denathrius
 	----- Encounter ID:   2424
-	----- NPC ID:         168938 -- Sire Denathrius
+	----- NPC ID:         167406 -- Sire Denathrius
 	--------------------------------------------------
 
 	local bossName = EJ_GetEncounterInfo(2424)
@@ -400,11 +397,8 @@ function CastleNathria:OnEnable()
 		183003, -- Pauldrons of Fatal Finality
 		182980, -- Sadist's Sinister Mask
 		183352, -- Memory of the Demise of Skybreaker
-		183897, -- Mystic Anima Spherule
 		183362, -- Memory of a Malefic Wrath
 		183384, -- Memory of the Exploiter
-		183898, -- Venerated Anima Spherule
-		183899, -- Zenith Anima Spherule
 		182636, -- Memory of the Deadliest Coil
 		183279, -- Memory of the Freezing Winds
 		183227, -- Memory of Oneth
@@ -413,7 +407,6 @@ function CastleNathria:OnEnable()
 		183324, -- Memory of a Harmonious Apparatus
 		183310, -- Memory of the Vanguard's Momentum
 		183288, -- Memory of a Celestial Infusion
-		183896, -- Abominable Anima Spherule
 		183256, -- Memory of the Eredun War Order
 		184031, -- Sanguine Vintage
 		184029, -- Manabound Mirror
@@ -432,22 +425,27 @@ function CastleNathria:OnEnable()
 		183044, -- Kilrogg's Cunning
 		184587, -- Ambuscade
 	}
-	self:RegisterBossLoot(castleNathria, lootTable, bossName)
+	self:RegisterBossLoot(castleNathria, lootTable, bossName, { 183896, 183897, 183898, 183899 })
 end
 
 function CastleNathria:InitializeZoneDetect(ZoneDetect)
 	ZoneDetect:RegisterMapID(1735, castleNathria)
-	ZoneDetect:RegisterNPCID(172145, castleNathria, 1) -- Shriekwing
-	ZoneDetect:RegisterNPCID(165066, castleNathria, 2) -- Huntsman Altimor
-	ZoneDetect:RegisterNPCID(165759, castleNathria, 3) -- Sun King's Salvation
+	ZoneDetect:RegisterNPCID(164406, castleNathria, 1) -- Shriekwing
+	ZoneDetect:RegisterNPCID(165066, castleNathria, 2) -- Huntsman Altimor (Huntsman Altimor)
+	ZoneDetect:RegisterNPCID(165067, castleNathria, 2) -- Margore (Huntsman Altimor)
+	ZoneDetect:RegisterNPCID(169457, castleNathria, 2) -- Bargast (Huntsman Altimor)
+	ZoneDetect:RegisterNPCID(169458, castleNathria, 2) -- Hecutis (Huntsman Altimor)
+	ZoneDetect:RegisterNPCID(165805, castleNathria, 3) -- Shade of Kael'thas (Sun King's Salvation)
+	ZoneDetect:RegisterNPCID(165759, castleNathria, 3) -- Kael'thas (Sun King's Salvation)
+	ZoneDetect:RegisterNPCID(168973, castleNathria, 3) -- High Torturer Darithos (Sun King's Salvation)
 	ZoneDetect:RegisterNPCID(166644, castleNathria, 4) -- Artificer Xy'mox
 	ZoneDetect:RegisterNPCID(164261, castleNathria, 5) -- Hungering Destroyer
-	ZoneDetect:RegisterNPCID(167517, castleNathria, 6) -- Lady Inerva Darkvein
+	ZoneDetect:RegisterNPCID(165521, castleNathria, 6) -- Lady Inerva Darkvein
 	ZoneDetect:RegisterNPCID(166971, castleNathria, 7) -- Castellan Niklaus (The Council of Blood)
 	ZoneDetect:RegisterNPCID(166969, castleNathria, 7) -- Baroness Frieda (The Council of Blood)
 	ZoneDetect:RegisterNPCID(166970, castleNathria, 7) -- Lord Stavros (The Council of Blood)
-	ZoneDetect:RegisterNPCID(174733, castleNathria, 8) -- Sludgefist
-	ZoneDetect:RegisterNPCID(165318, castleNathria, 9) -- General Kaal (Stone Legion Generals)
-	ZoneDetect:RegisterNPCID(170323, castleNathria, 9) -- General Grashaal (Stone Legion Generals)
-	ZoneDetect:RegisterNPCID(168938, castleNathria, 10) -- Sire Denathrius
+	ZoneDetect:RegisterNPCID(164407, castleNathria, 8) -- Sludgefist
+	ZoneDetect:RegisterNPCID(168112, castleNathria, 9) -- General Kaal (Stone Legion Generals)
+	ZoneDetect:RegisterNPCID(168113, castleNathria, 9) -- General Grashaal (Stone Legion Generals)
+	ZoneDetect:RegisterNPCID(167406, castleNathria, 10) -- Sire Denathrius
 end
